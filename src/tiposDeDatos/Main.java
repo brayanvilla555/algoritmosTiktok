@@ -1,5 +1,9 @@
 package tiposDeDatos;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     /*Datos Primitivos: Son los tipos de datos básicos que proporciona el lenguaje Java.
     Data Type	Size	Description
@@ -14,10 +18,11 @@ public class Main {
     https://oregoom.com/java/tipos-de-datos/
     */
 
-    /*Tipos de datos de referencia: Son los tipos de datos que se refieren a un objeto en lugar de almacenar el valor directamente.
+    /*Tipos de datos referencia: Son los tipos de datos que se refieren a un objeto en lugar de almacenar el valor directamente.
     String (Cadena):
     ArrayList (Lista dinámica):
-    HashMap (Mapa de claves):.
+    HashMap (
+    Mapa de claves):.
     Object (Objeto genérico):
     LinkedList (Lista enlazada):
     Enum (Enumeración):
@@ -25,4 +30,10 @@ public class Main {
     Iterator (Iterador):
     File (Archivo):
     Thread (Hilo): */
+    public static void main(String[] args) {
+        Integer entero = 10;
+        int uno = 10;
+
+        System.out.println(entero.toString());
+    }
 }
